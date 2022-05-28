@@ -11,7 +11,8 @@ header {
         font-style: normal;
 
     }
-     p {
+ 
+  p {
          font-family: 'Times New Roman', Times, serif;
          font-size: 20px;
          font-style: italic;
@@ -26,6 +27,12 @@ header {
      }
 
 
+     @media only screen and (max-width:380px) {
+         .img-banda {
+             display:none
+         }
+         
+     }
 
 
 
