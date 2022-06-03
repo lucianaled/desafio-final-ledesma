@@ -53,12 +53,47 @@ main {
         img {
             height: 300px;
             width: 400px;
-            border: 2px solid white;
+            border: 2px solid #ffffff;
             border-radius: 15px;
         }
     }
+    /*main mural.html*/
 
+    
+     .container-mural {
+    
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         margin: auto; 
 
+         .card-mural {
+              display: inline;
+         overflow: hidden;
+         margin: 20px;
+         text-align: center;
+         transition: all 0.25s;
+     }
+     img{
+         width: 300px;
+         height: 200px;
+     }
+    
+     }
+     .card-mural:hover {
+         transform: translateY(-15px);
+         box-shadow: 0 12px 16px rgba(0 , 0, 0, 0.2);
+     }
+
+     /*main tienda.html*/
+
+     .carousel-item {
+         img {
+             height: 300px;
+             width: 500px;
+         }
+
+     }
 
     @media screen and (min-width:768px) {
         font-size: 25px;
@@ -100,7 +135,19 @@ main {
 
 
 
+        .card-mural{
+            img {
+                height:500px;
+                width: 700px;
+            }
+        }
         
+        .carousel-item {
+            img {
+                height: 500px;
+                width: 600px;
+            }
+        }
 
     } 
 
