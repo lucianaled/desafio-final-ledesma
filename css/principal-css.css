@@ -51,7 +51,8 @@ main {
   margin: auto;
   color: white;
   /*main mural.html*/
-  /*main tienda.html*/ }
+  /*main tienda.html*/
+  /*main oleo.html*/ }
   main section {
     padding: 15px; }
   main .w-100 {
@@ -99,6 +100,12 @@ main {
   main .carousel-item img {
     height: 300px;
     width: 500px; }
+  main .img-oleo {
+    justify-content: center;
+    padding: 10px; }
+    main .img-oleo img {
+      padding: 10px;
+      margin: 2px; }
   @media screen and (min-width: 768px) {
     main {
       font-size: 25px;
@@ -127,6 +134,9 @@ main {
         width: 700px; }
       main .carousel-item img {
         height: 500px;
+        width: 600px; }
+      main .img-oleo img {
+        height: 400px;
         width: 600px; } }
 
 footer {
