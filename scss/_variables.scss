@@ -1,1 +1,22 @@
 $pading: 15px
+
+$primary white;
+$black: black;
+$green: green;
+$red: red;
+$blue: blue;
+$brown: brown;
+
+
+$redes: (
+    'blue':blue, 
+    'red': red,
+    'brown': brown
+);
+
+@mixin img-size ($alto, $ancho) { 
+    height: $alto;
+    width: $alto;
+}
+
+
